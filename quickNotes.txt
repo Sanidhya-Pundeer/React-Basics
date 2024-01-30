@@ -1,0 +1,4 @@
+This file contains quick some notes about React
+
+-> React is library of js not a framework.
+-> React was a class based components language but now its a functional components based language.
