@@ -1,0 +1,24 @@
+This file contains quick some notes about React.
+
+-> React is library of js not a framework.
+-> React was a class based components language but now its a functional components based language.
+
+
+Accessing Js in return statemnt:
+-> to write html in return you need (), to write javascript in return statement you need {}.
+similarly in order to access variables in return statement use {}
+
+for eg: const food1 =  "Apple";
+        const food2 = "Mango";
+
+            return (
+                    <ul>
+                         <li>Grapes</li>
+                        <li>{food1}</li>
+                    </ul>
+                     );
+
+
+-> can use the components by making functions and calling them
+
+
