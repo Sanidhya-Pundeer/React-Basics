@@ -22,3 +22,9 @@ for eg: const food1 =  "Apple";
 -> can use the components by making functions and calling them
 
 
+-> in App.js we cannot return more than one tag at a time, loophole to this is to make a empty tag
+and return every desired tag in that, calling the respective function in that order
+
+
+-> With .jsx files we use 'className' to assign class to a tag rather than 'class'  keyword
+

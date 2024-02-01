@@ -1,19 +1,10 @@
-import Header from "./Header.jsx"
-import Footer from "./Footer.jsx"
-import Food from "./Food.jsx";
+import Card from "./Card";
 
 function App() {
-    
     return (
         <>
-         <Header></Header>
-         <Food></Food>
-        {/* //or <Header/> */}
-        <Footer></Footer>
-        
+        <Card></Card>
         </>
-        //capability of returning only a single enclosing tag 
-        //loophole for this is to make an empty tag 
     );
 }
 
