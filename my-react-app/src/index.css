@@ -9,7 +9,10 @@
   display: inline-block;
 }
 
-.car .card-image{
+.car .card-image{ 
+ /*  to access a class within a class */
 max-width: 60%;
-
+height: auto;
+border-radius: 50%;
+margin-bottom: 10px;
 }
