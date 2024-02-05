@@ -5,7 +5,7 @@ return(
         <h2 className = 'card-title'>
           Sanidhya Pundeer  
         </h2>
-        <p>
+        <p className="card-text">
             Student at the NorthCap University, Specializing in FullStack Development.
         </p>
 

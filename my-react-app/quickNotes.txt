@@ -28,3 +28,23 @@ and return every desired tag in that, calling the respective function in that or
 
 -> With .jsx files we use 'className' to assign class to a tag rather than 'class'  keyword
 
+-> Card component can be called for any numbr of times in the app, enclosed between the tags.
+
+-> 3 ways to apply css styling:
+
+   - External (single css file for all the classes)
+
+   - Modules:
+    (making specific folders and files for applying css)
+    with modules their is no naming conflict possible, as it generates a hash value with 'module'.
+
+   - In-Line Styling:
+    prevent global conflicts as does not require importing files. 
+    perfect for isolated components, with minimal styling.
+
+
+-> Props:
+    read only properties shared between the components. 
+    a parent component can send data to the child component in the form of key value pairs.
+
+    other than string everything else need to be enclosed in a {} while passing key and value pair in app.js 
