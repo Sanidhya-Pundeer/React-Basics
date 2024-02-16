@@ -48,3 +48,11 @@ and return every desired tag in that, calling the respective function in that or
     a parent component can send data to the child component in the form of key value pairs.
 
     other than string everything else need to be enclosed in a {} while passing key and value pair in app.js 
+
+-> propTypes:   
+    just ensures that the passed value is of the correct data type, otherwise will give error in console
+    generally used for debugging purposes, wont stop the application from running
+
+
+-> Default Props:
+    deafult values passed in the props incase tha parent component does not pass the value     
