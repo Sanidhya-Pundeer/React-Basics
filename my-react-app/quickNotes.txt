@@ -56,3 +56,27 @@ and return every desired tag in that, calling the respective function in that or
 
 -> Default Props:
     deafult values passed in the props incase tha parent component does not pass the value     
+
+
+-> Conditional Rendering:
+    gives control to what gets render in application based on certain conditions, like show hide or change components 
+
+
+------------Side Note--------------
+Alternative for if else statement is ternary operator in js
+the eg is below:
+
+    if(props.isLoggedIn){
+         return (<h2>Welcome {props.userName}</h2>)
+    }
+    else {
+     return <h2>Please log in to continue</h2>
+    }
+
+ or you can use the ternary operator in js
+
+return (props.isLoggedIn ? <h2>Welcome {props.userName}</h2> : <h2>Please login to continue</h2>);
+
+-----------side note---------------
+
+

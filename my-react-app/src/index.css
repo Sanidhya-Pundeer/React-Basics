@@ -39,3 +39,22 @@ margin-bottom: 10px;
 .student p{
   margin: 0;
 }
+
+
+.welcome-message{
+  font-size: larger;
+  color: rgb(12, 39, 63);
+  background-color: rgb(89, 210, 170);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login-prompt{
+  background-color: rgb(214, 58, 58);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+  font-size: larger;
+  color: rgb(12, 39, 63);
+}
