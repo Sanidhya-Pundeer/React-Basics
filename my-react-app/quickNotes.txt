@@ -42,6 +42,8 @@ and return every desired tag in that, calling the respective function in that or
     prevent global conflicts as does not require importing files. 
     perfect for isolated components, with minimal styling.
 
+-----------Props-------------
+
 
 -> Props:
     read only properties shared between the components. 
@@ -57,6 +59,9 @@ and return every desired tag in that, calling the respective function in that or
 -> Default Props:
     deafult values passed in the props incase tha parent component does not pass the value     
 
+
+
+------------Rendering and Rendering Lists--------------------
 
 -> Conditional Rendering:
     gives control to what gets render in application based on certain conditions, like show hide or change components 
@@ -80,3 +85,15 @@ return (props.isLoggedIn ? <h2>Welcome {props.userName}</h2> : <h2>Please login 
 -----------side note---------------
 
 
+-> Sorting in js using sort() function:
+
+fruits.sort()//default sorting in ascending order 
+fruits.sort((a,b) => a.name.localeCompare(b.name)); //Alphabatical 
+fruits.sort((a,b)=> b.name.localeCompare(b.name)); //Reverse Alphabatical order
+fruits.sort((a,b)=> a.cal-b.cal);// numerical order
+fruits.sort((a,b)=> b.cal-a.cal);// reverse numerical order  
+
+
+-> Filtering list items in js
+
+const lowCalFruits = fruits.filter(fruit => fruit.cal < 100);//filter fruits with low calories than 100

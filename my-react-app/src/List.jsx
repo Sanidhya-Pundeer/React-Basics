@@ -1,8 +1,13 @@
-function List(){
-const fruits =['apples', 'bananas', 'mango'];
+function List(props){
 
-const listItems = fruits.map(fruit => <li>{fruit}</li>)
-return (<ul>{listItems}</ul>);
+const itemList = props.items;
+const category = props.category;
+
+const listItems = itemList.map(item => <li key={item.id}>{item.name}: {item.cal}</li>)
+
+return (<>
+<h3>{category}</h3><ol>{listItems}</ol>
+</>);
 
 }
 
