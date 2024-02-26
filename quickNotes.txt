@@ -1,5 +1,13 @@
 This file contains quick some notes about React.
 
+Steps to create a react app with vite:
+1-> npm create vite@latest (to create the latest version of react application)
+2-> select the framework and language to work with
+3-> cd 'name of folder for the project'
+4-> npm install 
+5-> npm run dev
+
+
 -> React is library of js not a framework.
 -> React was a class based components language but now its a functional components based language.
 
@@ -54,11 +62,20 @@ and return every desired tag in that, calling the respective function in that or
 -> propTypes:   
     just ensures that the passed value is of the correct data type, otherwise will give error in console
     generally used for debugging purposes, wont stop the application from running
+eg: 
+List.propTypes = {
+    category: PropTypes.string,
+    items: PropTypes.arrayOf(PropTypes.shape({id: PropTypes.number, name: PropTypes.string, calories: PropTypes.string}))
+}
 
 
 -> Default Props:
     deafult values passed in the props incase tha parent component does not pass the value     
-
+eg: 
+List.defaultProps ={
+    category: "Category",
+    items: [],
+}
 
 
 ------------Rendering and Rendering Lists--------------------
@@ -97,3 +114,17 @@ fruits.sort((a,b)=> b.cal-a.cal);// reverse numerical order
 -> Filtering list items in js
 
 const lowCalFruits = fruits.filter(fruit => fruit.cal < 100);//filter fruits with low calories than 100
+
+-> Conditional Rendering:
+only render lists if there are elements in the list:
+{fruits.length>0 ? <List items= {fruits} category='Fruits'></List> : null}
+
+
+---------------Rendering lists end-------------------
+
+
+-----------------Click Events-------------------------
+
+-> Click Event: An interaction when a user clicks on a specific element, can respond to click by 
+passing a callback on the onClick event handler.
+

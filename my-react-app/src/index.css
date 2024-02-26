@@ -58,3 +58,31 @@ margin-bottom: 10px;
   font-size: larger;
   color: rgb(12, 39, 63);
 }
+
+.list-category{
+  font-size: 80;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(2, 33, 61);
+  background-color: rgb(130, 180, 223);
+  border: 3px solid;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.list-items{
+  font-size: 80;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(10, 95, 41);
+  background-color: rgb(135, 232, 174);
+  border: 3px solid;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.list-items:hover{
+  color: rgb(2, 5, 7);
+  background-color: rgb(244, 200, 134);
+  cursor:crosshair;
+}
