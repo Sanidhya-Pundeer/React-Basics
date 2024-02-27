@@ -1,6 +1,11 @@
 function Button(){
+    const handleclick = (e) =>{
+        e.target.textContent = 'OUCH!';
+    }
+    
+
 return(<>
-<button>Click me</button>
+<button onDoubleClick={(e) => handleclick(e)}>Click me</button>
 </>);
 }
 

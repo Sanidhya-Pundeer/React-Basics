@@ -1,4 +1,5 @@
 import Button from "./Buttons"
+import ProfilePicture from "./ProfilePicture"
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <Button></Button>
+      <ProfilePicture></ProfilePicture>
     </>
   )
 }
